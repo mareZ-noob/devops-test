@@ -9,7 +9,7 @@ pipeline {
     }
 
     environment {
-        REPO_URL = 'https://github.com/mareZ-noob/devops-test.git'
+        REPO_URL = 'https://github.com/mareZ-noob/devops-test'
         BRANCH_NAME = "${params.BRANCH_NAME}"
         IMAGE_NAME = 'ntquan87/devopstest'
     }
